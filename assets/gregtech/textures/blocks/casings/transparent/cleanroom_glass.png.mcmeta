@@ -4,7 +4,7 @@
         "type": "CTM",
         "layer": "CUTOUT",
         "textures": [
-            "gregtech:blocks/casings/coils/machine_coil_molybdenum_disilicide_ctm"
+            "gregtech:blocks/casings/transparent/cleanroom_glass_ctm"
         ],
         "extra": {
             "connect_inside": true
