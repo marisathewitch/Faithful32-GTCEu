@@ -1,4 +1,4 @@
-# Faithful32-GTCEu
+# ![image](https://github.com/marisathewitch/Faithful32-GTCEu/assets/5376817/db755f09-9508-493e-920e-b1a1666fcbb4) Faithful32-GTCEu
 
 Faithful 32 resource pack for GregTech CE: Unofficial (1.12.2).
 
