@@ -6,6 +6,6 @@ All credit goes to Faithful-Mods, Ethryan and UserNM.
 They do 99.9% of all work.
 
 ## Installation
-1. Download the Resource Pack from our [Nightly Page](https://nightly.link/IntegerLimit/Faithful32-GTCEu/workflows/build/main/Faithful32-GTCEu).
+1. Download the Resource Pack from our [Nightly Page](https://nightly.link/marisathewitch/Faithful32-GTCEu/workflows/build/main/Faithful32-GTCEu).
 2. Place it into your instance's Resouce Pack Folder.
 3. Inside the game, place this Resource Pack above "F32 Modded" and "Faithful F32".
