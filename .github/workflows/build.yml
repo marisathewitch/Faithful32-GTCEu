@@ -1,0 +1,32 @@
+name: Build Resource Pack
+
+on:
+  push:
+  pull_request:
+
+# if a second commit is pushed quickly after the first, cancel the first one's build
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build Resource Pack (${{ github.sha }})
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Ref
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Upload Resource Pack
+        uses: actions/upload-artifact@v4
+        with:
+          name: Faithful32-GTCEu
+          path: |
+            ./pack.mcmeta
+            ./pack.png
+            ./assets/**/*
+          if-no-files-found: error
+          compression-level: 9
