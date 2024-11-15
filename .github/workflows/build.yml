@@ -11,7 +11,7 @@ concurrency:
 
 jobs:
   build:
-    name: Build Resource Pack (${{ github.ref }})
+    name: Build Resource Pack (${{ github.sha }})
     runs-on: ubuntu-latest
 
     steps:
