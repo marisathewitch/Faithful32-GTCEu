@@ -3,8 +3,8 @@
   "defaults": {
     "model": "minecraft:cube_bottom_top",
     "textures": {
-      "bottom": "minecraft:blocks/misc/pwd_top",
-      "top": "minecraft:blocks/misc/pwd_top",
+      "bottom": "gregtech:blocks/misc/pwd_top",
+      "top": "gregtech:blocks/misc/pwd_top",
       "side": "gregtech:blocks/misc/pwd_side"
     }
   },
