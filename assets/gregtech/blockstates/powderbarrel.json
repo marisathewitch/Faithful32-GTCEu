@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "minecraft:cube_all",
+    "textures": {
+      "bottom": "minecraft:blocks/misc/pwd_top",
+      "top": "minecraft:blocks/misc/pwd_top",
+      "side": "gregtech:blocks/misc/pwd_side"
+    }
+  },
+  "variants": {
+    "normal": [
+      {}
+    ]
+  }
+}
